@@ -1,9 +1,12 @@
-import Catalogue from "../componant/Catalogue.jsx"
+import './Doc.css'
+import Catalogue from "../componant/Cat/Catalogue.jsx"
 import React from 'react'
 
 function Doc() {
   return (
-    <div><Catalogue></Catalogue></div>
+    <>
+      <Catalogue/>
+    </>
   )
 }
 

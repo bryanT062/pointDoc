@@ -1,4 +1,4 @@
-export function Footer() {
+export default function Footer() {
     return (
         <section>
             <p>Dev Front - 2025</p>

@@ -1,0 +1,8 @@
+#bloc {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    position: relative;
+    
+
+}

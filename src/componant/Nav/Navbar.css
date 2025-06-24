@@ -1,0 +1,13 @@
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    border: 1px solid black;
+    width: 100%;
+    padding: 15px;
+}
+
+nav {
+    
+}

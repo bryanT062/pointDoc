@@ -1,4 +1,5 @@
-export function Header() {
+import './Navbar.css'
+export default function Header() {
   return (
     <header>
       
