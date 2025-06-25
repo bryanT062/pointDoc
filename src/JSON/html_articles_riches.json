@@ -1,0 +1,157 @@
+{
+  "name": "HTML",
+  "articles": [
+    {
+      "title": "Introduction au HTML",
+      "description": "Présentation générale de HTML, le langage de balisage utilisé pour structurer les pages web."
+    },
+    {
+      "title": "Éditeurs HTML",
+      "description": "Logiciels ou environnements pour écrire et éditer du code HTML comme VS Code, Sublime Text ou Notepad++."
+    },
+    {
+      "title": "HTML de base",
+      "description": "Concepts fondamentaux de HTML : structure de document, balises de base et hiérarchie."
+    },
+    {
+      "title": "Éléments HTML",
+      "description": "Ensemble des balises utilisées pour structurer le contenu d’une page web."
+    },
+    {
+      "title": "Attributs HTML",
+      "description": "Propriétés supplémentaires dans les balises HTML pour définir leur comportement ou apparence."
+    },
+    {
+      "title": "Titres HTML",
+      "description": "Balises <h1> à <h6> pour structurer les titres selon leur niveau d'importance."
+    },
+    {
+      "title": "Paragraphes HTML",
+      "description": "Balises <p> pour écrire et structurer les blocs de texte."
+    },
+    {
+      "title": "Styles HTML",
+      "description": "Méthodes d’application de styles dans HTML via l’attribut `style` ou les balises <style>."
+    },
+    {
+      "title": "Formatage HTML",
+      "description": "Utilisation des balises <b>, <i>, <strong>, etc., pour mettre en forme du texte."
+    },
+    {
+      "title": "Citations HTML",
+      "description": "Balises comme <blockquote>, <q> ou <cite> pour citer des contenus ou des auteurs."
+    },
+    {
+      "title": "Commentaires HTML",
+      "description": "Ajout de notes dans le code HTML non visibles dans le navigateur, avec `<!-- commentaire -->`."
+    },
+    {
+      "title": "Couleurs HTML",
+      "description": "Application de couleurs via des noms, codes hexadécimaux, rgb(), etc."
+    },
+    {
+      "title": "HTML CSS",
+      "description": "Lien entre HTML et CSS pour styliser les éléments HTML."
+    },
+    {
+      "title": "Liens HTML",
+      "description": "Création d’hyperliens vers d’autres pages ou ressources à l’aide de la balise <a>."
+    },
+    {
+      "title": "Images HTML",
+      "description": "Intégration d’images dans une page via la balise <img> et ses attributs."
+    },
+    {
+      "title": "Favicon HTML",
+      "description": "Ajout d’une petite icône représentant un site web dans l’onglet du navigateur."
+    },
+    {
+      "title": "Titre de la page HTML",
+      "description": "Définition du titre affiché dans l’onglet du navigateur à l’aide de <title>."
+    },
+    {
+      "title": "Tableaux HTML",
+      "description": "Utilisation des balises <table>, <tr>, <td>, etc., pour créer des tableaux de données."
+    },
+    {
+      "title": "Listes HTML",
+      "description": "Création de listes ordonnées (<ol>), non ordonnées (<ul>) et de définitions (<dl>)."
+    },
+    {
+      "title": "Bloc HTML et en ligne",
+      "description": "Différences entre les éléments de type bloc (ex: <div>) et en ligne (ex: <span>)."
+    },
+    {
+      "title": "HTML Div",
+      "description": "Utilisation de <div> pour regrouper et structurer des blocs d’éléments."
+    },
+    {
+      "title": "Classes HTML",
+      "description": "Attribut `class` pour appliquer des styles CSS ou manipuler des groupes d’éléments."
+    },
+    {
+      "title": "Identifiant HTML",
+      "description": "Attribut `id` pour identifier de manière unique un élément HTML."
+    },
+    {
+      "title": "Iframes HTML",
+      "description": "Balise <iframe> pour intégrer une page web ou un média dans une autre page."
+    },
+    {
+      "title": "HTML JavaScript",
+      "description": "Utilisation de JavaScript dans un fichier HTML pour rendre la page interactive."
+    },
+    {
+      "title": "Chemins de fichiers HTML",
+      "description": "Référencement de fichiers internes ou externes via des chemins relatifs ou absolus."
+    },
+    {
+      "title": "Tête HTML",
+      "description": "Élément <head> contenant les métadonnées, liens CSS, scripts JS, etc."
+    },
+    {
+      "title": "Mise en page HTML",
+      "description": "Organisation visuelle des éléments HTML dans la page."
+    },
+    {
+      "title": "HTML réactif",
+      "description": "Techniques pour rendre une page adaptable aux différents écrans (mobile, tablette, desktop)."
+    },
+    {
+      "title": "Code informatique HTML",
+      "description": "Balises <code>, <pre>, <kbd>, etc., pour afficher du code informatique."
+    },
+    {
+      "title": "Sémantique HTML",
+      "description": "Utilisation de balises ayant un sens explicite comme <header>, <section>, <article>."
+    },
+    {
+      "title": "Guide de style HTML",
+      "description": "Bonnes pratiques d’écriture, de lisibilité et de structuration du code HTML."
+    },
+    {
+      "title": "Entités HTML",
+      "description": "Caractères spéciaux encodés sous forme d’entités comme &amp;, &lt;, &gt;."
+    },
+    {
+      "title": "Symboles HTML",
+      "description": "Affichage de symboles spéciaux grâce à des entités HTML."
+    },
+    {
+      "title": "Émojis HTML",
+      "description": "Utilisation d’emojis via Unicode ou encodage spécial dans le HTML."
+    },
+    {
+      "title": "Jeux de caractères HTML",
+      "description": "Définition de l’encodage des caractères dans une page avec <meta charset='UTF-8'>."
+    },
+    {
+      "title": "Encodage d'URL HTML",
+      "description": "Conversion de caractères spéciaux dans les URL pour qu’ils soient valides."
+    },
+    {
+      "title": "HTML contre XHTML",
+      "description": "Comparaison entre HTML et XHTML, leurs syntaxes et contraintes respectives."
+    }
+  ]
+}

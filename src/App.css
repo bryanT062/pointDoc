@@ -1,8 +1,11 @@
-#bloc {
+* {
     box-sizing: border-box;
-    display: flex;
-    width: 100%;
-    position: relative;
-    
-
+}
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
 }
