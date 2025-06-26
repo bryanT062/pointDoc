@@ -1,19 +1,19 @@
-import './Catalogue.css'
-import Logo from '../../assets/logo.png'
+import "./Catalogue.css";
+import Logo from "../../assets/logo.png";
 
-export default function Catalogue() {
-    return (
-        <aside>
-            <img id="logo" src={Logo} alt="Logo" />
-            <hr />
-            <h3>Language / Code</h3>
-            <div id="Catalogue">
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>REACT</button>
-                <button>JS</button>
-                <button>GIT</button>
-            </div>
-        </aside>
-    )
+export default function Catalogue({ onTechClick }) {
+  return (
+    <aside>
+      <img id="logo" src={Logo} alt="Logo" />
+      <hr />
+      <h3>Language / Code</h3>
+      <div id="Catalogue">
+        {["HTML", "CSS", "REACT", "JS", "GIT"].map((lang) => (
+          <button key={lang} onClick={() => onTechClick(lang)}>
+            {lang}
+          </button>
+        ))}
+      </div>
+    </aside>
+  );
 }

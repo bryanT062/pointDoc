@@ -1,14 +1,13 @@
 #footer {
   background-color: #000945;
   color: white;
-  padding: 20px 30px;
+  padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
   font-size: 0.95rem;
   width: 100%; 
-  margin: 0; 
 }
 
 #footer div {

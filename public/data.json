@@ -1,0 +1,112 @@
+[
+  {
+    "name": "HTML",
+    "description": "HTML (HyperText Markup Language) est le langage de balisage standard utilisé pour créer la structure et le contenu des pages web. Il permet de définir des éléments tels que titres, paragraphes, images, liens, formulaires, et bien plus encore.",
+    "articles": [
+      {
+        "title": "Introduction au HTML",
+        "description": "Présentation générale de HTML, son rôle dans la création de pages web et les bases de sa syntaxe."
+      },
+      {
+        "title": "Les balises HTML essentielles",
+        "description": "Découvrez les balises de base comme <html>, <head>, <body>, <h1> à <h6>, <p>, <a>, <img>, et comment les utiliser correctement."
+      },
+      {
+        "title": "Structurer une page HTML",
+        "description": "Apprenez à organiser votre contenu avec des sections, articles, nav, footer pour une structure claire et sémantique."
+      },
+      {
+        "title": "Formulaires HTML",
+        "description": "Comprenez comment créer des formulaires interactifs avec <form>, <input>, <textarea>, <button>, et gérer les données saisies."
+      }
+    ]
+  },
+  {
+    "name": "CSS",
+    "description": "CSS (Cascading Style Sheets) est le langage utilisé pour décrire la présentation des documents HTML. Il permet de définir les couleurs, polices, marges, dispositions, animations, et rendre les pages web visuellement attrayantes.",
+    "articles": [
+      {
+        "title": "Introduction au CSS",
+        "description": "Comprendre l'objectif du CSS et comment il s'intègre avec HTML pour styliser les pages web."
+      },
+      {
+        "title": "Sélecteurs CSS",
+        "description": "Apprenez à cibler précisément les éléments HTML avec les sélecteurs simples, combinés, d'attributs, et pseudo-classes."
+      },
+      {
+        "title": "Box Model CSS",
+        "description": "Maîtrisez le modèle de boîte, incluant marges, bordures, padding et contenu, pour contrôler la mise en page."
+      },
+      {
+        "title": "Flexbox et Grilles CSS",
+        "description": "Découvrez les techniques modernes pour créer des mises en page flexibles et réactives grâce à Flexbox et CSS Grid."
+      }
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "description": "JavaScript est un langage de programmation dynamique qui permet d’ajouter de l’interactivité aux pages web. Il gère les événements, manipule le DOM, communique avec des serveurs, et bien plus encore.",
+    "articles": [
+      {
+        "title": "Introduction à JavaScript",
+        "description": "Découvrez les bases du langage, comment l'inclure dans une page HTML et son rôle dans le développement web."
+      },
+      {
+        "title": "Variables et types de données",
+        "description": "Apprenez les différentes façons de déclarer des variables et les types de données fondamentaux en JavaScript."
+      },
+      {
+        "title": "Fonctions et événements",
+        "description": "Comprenez comment écrire des fonctions, gérer des événements utilisateur et rendre les pages interactives."
+      },
+      {
+        "title": "Manipulation du DOM",
+        "description": "Apprenez à accéder et modifier les éléments HTML dynamiquement avec JavaScript."
+      }
+    ]
+  },
+  {
+    "name": "React",
+    "description": "React est une bibliothèque JavaScript pour construire des interfaces utilisateur. Elle permet de créer des composants réutilisables et de gérer efficacement le DOM grâce à un système de rendu virtuel.",
+    "articles": [
+      {
+        "title": "Introduction à React",
+        "description": "Présentation des concepts fondamentaux de React, les composants, JSX, et la gestion de l'état."
+      },
+      {
+        "title": "Composants fonctionnels et hooks",
+        "description": "Apprenez à créer des composants modernes avec des hooks comme useState et useEffect pour gérer la logique et les effets."
+      },
+      {
+        "title": "Gestion des événements en React",
+        "description": "Découvrez comment gérer les interactions utilisateur et les événements dans React."
+      },
+      {
+        "title": "Passer des props et gérer l’état",
+        "description": "Comprenez comment passer des données entre composants via les props et gérer l’état local et global."
+      }
+    ]
+  },
+  {
+    "name": "Git",
+    "description": "Git est un système de contrôle de version distribué qui permet de suivre les modifications du code source, collaborer efficacement, et gérer les versions des projets de développement.",
+    "articles": [
+      {
+        "title": "Introduction à Git",
+        "description": "Comprenez le rôle de Git dans le développement, installation et premiers pas."
+      },
+      {
+        "title": "Les commandes Git essentielles",
+        "description": "Découvrez les commandes de base : init, clone, add, commit, push, pull, status."
+      },
+      {
+        "title": "Branches et fusion",
+        "description": "Apprenez à créer, gérer et fusionner des branches pour un développement parallèle et sécurisé."
+      },
+      {
+        "title": "Gestion des conflits",
+        "description": "Comprenez comment résoudre les conflits lors de la fusion et maintenir un historique propre."
+      }
+    ]
+  }
+]
