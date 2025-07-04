@@ -9,6 +9,9 @@ body, html, #root {
   font-family: 'Segoe UI', sans-serif;
   
 }
+body{
+  position: relative;
+}
 
 .layout {
   display: flex;

@@ -1,6 +1,6 @@
 import "./Contenu.css";
 
-export default function Contenant({ tech, selectedArticle, onArticleClick, onBackClick }) {
+export default function Contenant({ tech, selectedArticle, onArticleClick }) {
   return (
     <>
       <div className="contenu">
@@ -9,14 +9,8 @@ export default function Contenant({ tech, selectedArticle, onArticleClick, onBac
       <div id="mon_contenu">
         {selectedArticle ? (
           <>
-            {/* Bouton croix pour revenir */}
-            <button className="close-button" onClick={onBackClick} aria-label="Retour à la liste">
-              ✕
-            </button>
 
-            <h2>{selectedArticle.title}</h2>
-            <hr />
-            <p>{selectedArticle.description}</p>
+            <div dangerouslySetInnerHTML={{ __html: selectedArticle.description }} />
           </>
         ) : tech ? (
           <>

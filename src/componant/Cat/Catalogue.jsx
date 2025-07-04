@@ -1,18 +1,48 @@
+import { useState } from "react";
 import "./Catalogue.css";
 import Logo from "../../assets/logo.png";
 
-export default function Catalogue({ onTechClick }) {
+export default function Catalogue({ data, onTechClick, onArticleClick, onBackClick }) {
+  const [selectedTech, setSelectedTech] = useState(null);
+
+  const handleTechClick = (techName) => {
+    const tech = data.find((t) => t.name.toLowerCase() === techName.toLowerCase());
+    setSelectedTech(tech);
+    onTechClick(techName); // met à jour le contenu
+  };
+
+  const handleBackClick = () => {
+    setSelectedTech(null);      // remet le menu latéral à zéro
+    onBackClick();              // remet le Contenant à zéro (depuis App.jsx)
+  };
+
   return (
     <aside>
       <img id="logo" src={Logo} alt="Logo" />
       <hr />
-      <h3>Language / Code</h3>
+      <h3>{selectedTech ? selectedTech.name : "Language / Code"}</h3>
+
       <div id="Catalogue">
-        {["HTML", "CSS", "REACT", "JS", "GIT"].map((lang) => (
-          <button key={lang} onClick={() => onTechClick(lang)}>
-            {lang}
-          </button>
-        ))}
+        {!selectedTech ? (
+          ["HTML", "CSS", "REACT", "JS", "GIT"].map((lang) => (
+            <button key={lang} onClick={() => handleTechClick(lang)}>
+              {lang}
+            </button>
+          ))
+        ) : (
+          <>
+            <button onClick={handleBackClick} className="back-btn">←</button>
+            {selectedTech.articles.map((article, index) => (
+              <button
+                key={index}
+                onClick={() => onArticleClick(article)}
+                className="article-btn"
+              >
+                {article.title}
+              </button>
+            ))}
+          </>
+        )}
       </div>
     </aside>
   );

@@ -30,19 +30,28 @@ export default function App() {
 
   const handleBackClick = () => {
     setSelectedArticle(null);
+    setSelectedTech(null);
+    Contenant;
+
   };
 
   return (
     <div className="layout">
-      <Catalogue onTechClick={handleTechClick} />
+   <Catalogue
+  data={data}
+  onTechClick={handleTechClick}
+  onArticleClick={handleArticleClick}
+  onBackClick={handleBackClick}
+/>
       <div className="main-content">
         <Navbar />
         <Contenant
           tech={selectedTech}
           selectedArticle={selectedArticle}
           onArticleClick={handleArticleClick}
-          onBackClick={handleBackClick}
+          
         />
+        
         <Footer />
       </div>
     </div>
