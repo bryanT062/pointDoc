@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Catalogue from "./componant/Cat/Catalogue";
 import Contenant from "./componant/Contenu/Contenu";
 import Footer from "./componant/Foot/Footer";
-import Navbar from "./componant/Nav/Navbar";
 import "./App.css";
 
 export default function App() {
@@ -44,7 +43,7 @@ export default function App() {
   onBackClick={handleBackClick}
 />
       <div className="main-content">
-        <Navbar />
+       
         <Contenant
           tech={selectedTech}
           selectedArticle={selectedArticle}
