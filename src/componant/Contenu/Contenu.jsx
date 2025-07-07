@@ -24,7 +24,7 @@ export default function Contenant({ tech, selectedArticle, onArticleClick }) {
                 onClick={() => onArticleClick(article)}
               >
                 <h3>{article.title}</h3>
-                <p>{article.description}</p>
+                <div dangerouslySetInnerHTML={{ __html: article.description }} />
               </div>
             ))}
           </>
