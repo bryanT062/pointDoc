@@ -8,12 +8,12 @@ export default function Catalogue({ data, onTechClick, onArticleClick, onBackCli
   const handleTechClick = (techName) => {
     const tech = data.find((t) => t.name.toLowerCase() === techName.toLowerCase());
     setSelectedTech(tech);
-    onTechClick(techName); // met à jour le contenu
+    onTechClick(techName); 
   };
 
   const handleBackClick = () => {
-    setSelectedTech(null);      // remet le menu latéral à zéro
-    onBackClick();              // remet le Contenant à zéro (depuis App.jsx)
+    setSelectedTech(null);      
+    onBackClick();              
   };
 
   return (
